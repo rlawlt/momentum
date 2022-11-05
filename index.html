@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type = "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <title>나만의 동기부여 홈화면 만들기</title>
+    <script src="index.js"></script>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2017/10/03/1143/Hyatt-Centric-Times-Square-New-York-P132-Bar-54-Manhattan-City-View.jpg/Hyatt-Centric-Times-Square-New-York-P132-Bar-54-Manhattan-City-View.16x9.jpg");
+            background-position: center;
+            background-size: cover;
+
+            color:white;
+        }
+
+        .time {
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        .greeting {
+            font-size: 50px;
+        }
+
+        .todo {
+            font-size: 30px;
+        }
+
+        .author {
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .main {
+            width: 100vw;
+            height: 88vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .qoute {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main"> 
+        <div id="time" class="time">12:00</div>
+        <div class="greeting">Hello, Jisu!</div>
+        <div class="todo"> 할 일을 미루지 말자 제발!!!</div>
+    </div>
+    <div class="qoute">
+        <div id="author" class="author">- 명언의 저자 -</div>
+        <div id="content" class="content">" 명언의 내용 "</div>
+    </div>
+</body>
+
+</html>
